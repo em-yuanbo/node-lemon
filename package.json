@@ -1,0 +1,22 @@
+{
+  "name": "node-lemon",
+  "version": "1.0.0",
+  "description": "nodejs bindings of lemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run compile && echo \"run test\n\"&& node test.js",
+    "compile":"node-gyp rebuild"
+  },
+  "keywords": [
+    "lemon",
+    "sql",
+    "parser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.4.0",
+    "node-gyp": "^3.4.0"
+  }
+}
